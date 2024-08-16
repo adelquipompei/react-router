@@ -6,7 +6,7 @@ function Inicio() {
     
         <div>
           <h2>Pagina de inicio</h2>
-          <p>Esta esla o sitio</p>
+          <p>Este es mi sitio</p>
         </div>
   )
 }

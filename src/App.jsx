@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/header'
 import Inicio from './components/Inicio'
 import Blog from './components/Blog'
+import Post from './components/Post'
 import AcercaDe from './components/AcercaDe'
 import styled from 'styled-components'
 
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path='/' Component={Inicio} />
             <Route path='/blog' Component={Blog} />
+            <Route path='/post/:id' Component={Post} />
             <Route path='/acerca-de' Component={AcercaDe} />
           </Routes>
         </Main>
