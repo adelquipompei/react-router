@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import posts from '../data/posts';
 import { useNavigate, useParams } from 'react-router-dom';
+import { TituloPagina } from './Blog';
 
 function Post() {
   const { id } = useParams();
@@ -18,7 +19,7 @@ function Post() {
 
   return (
     <div>
-      <h2>{post.titulo}</h2>
+   <TituloPagina>{post.titulo}</TituloPagina>
       <p>{post.texto}</p>
     </div>
   );
