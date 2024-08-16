@@ -1,11 +1,12 @@
 import React from 'react'
+import { TituloPagina } from './Blog'
 
 
 function Inicio() {
   return (
     
         <div>
-          <h2>Pagina de inicio</h2>
+          <TituloPagina>Pagina de inicio</TituloPagina>
           <p>Este es mi sitio</p>
         </div>
   )

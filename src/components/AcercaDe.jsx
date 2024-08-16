@@ -1,9 +1,10 @@
 import React from 'react'
+import { TituloPagina } from './Blog'
 
 function AcercaDe() {
     return (
         <div>
-            <h2>Acerca de</h2>
+            <TituloPagina>Acerca de</TituloPagina>
             <p>Hola soy keko</p>
         </div>
     )
